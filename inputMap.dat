@@ -1,0 +1,19 @@
+INPUT MAP
+Leave two blank lines at the end
+
+right
+0 39
+0 68
+
+left
+0 37
+0 65
+
+up
+0 38
+0 87
+
+down
+0 40
+0 83
+
