@@ -30,8 +30,8 @@ public class SpritePackage implements Position {
       this(0, iniFilename, iniX, iniY, 1);
    }
    
-   public int[] getCoords() {
-      return new int[] {(int) x, (int) y};
+   public double[] getCoords() {
+      return new double[] {(double) x, (double) y};
    }
    
    public String getFilename() {

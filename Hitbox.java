@@ -28,8 +28,8 @@ public class Hitbox implements Position {
    public int getY() {
       return y;
    }
-   public int[] getCoords() {
-      return new int[] {x, y};
+   public double[] getCoords() {
+      return new double[] {x, y};
    }
    public int getWidth() {
       return width;
