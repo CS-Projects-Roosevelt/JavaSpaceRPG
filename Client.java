@@ -116,7 +116,7 @@ public class Client {
       drawSprite(canvas, g, filename, x, y, sprite(filename).getWidth(null), sprite(filename).getHeight(null), cam);
    }
    public static void drawSprite(DisplayCanvas canvas, Graphics g, SpritePackage sprt, Camera cam) {
-      drawSprite(canvas, g, sprt.getFilename(), sprt.getCoords()[0], sprt.getCoords()[1], sprite(sprt.getFilename()).getWidth(null) * sprt.getWidthMultiplier(), sprite(sprt.getFilename()).getHeight(null) * sprt.getHeightMultiplier(), cam);
+      drawSprite(canvas, g, sprt.getFilename(), (int) sprt.getCoords()[0], (int) sprt.getCoords()[1], sprite(sprt.getFilename()).getWidth(null) * sprt.getWidthMultiplier(), sprite(sprt.getFilename()).getHeight(null) * sprt.getHeightMultiplier(), cam);
    }
    
    //returns an image object for a given filename from the sprites folder
