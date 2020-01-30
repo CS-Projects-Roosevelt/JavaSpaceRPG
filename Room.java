@@ -17,7 +17,7 @@ public class Room {
       }
       return ret;
    }
-   public void garbageCollect() {
+   /*public void garbageCollect() {
       int i = 0;
       while (i < actors.size()) {
          if (actors.get(i).shouldDelete()) {
@@ -27,5 +27,5 @@ public class Room {
             i++;
          }
       }
-   }
+   }*/
 }
